@@ -1,0 +1,35 @@
+# Bibliothèque de Calcul Mathématique
+
+Ce projet implémente une bibliothèque de calcul mathématique modulaire en Python. Il inclut des opérations de base (addition, soustraction, multiplication, division) ainsi que des fonctions statistiques avancées. Des tests unitaires sont fournis pour vérifier le bon fonctionnement de chaque fonctionnalité, et le code est profilé pour analyser ses performances.
+
+## Fonctionnalités
+
+### 1. Opérations de Base
+Les opérations suivantes sont disponibles dans le fichier `calculator.py` :
+
+- **Addition**
+- **Soustraction**
+- **Multiplication**
+- **Division**
+
+### 2. Statistiques Avancées
+Des fonctions supplémentaires permettent de calculer des statistiques :
+
+- **Moyenne** : calcule la moyenne des nombres d'une liste.
+- **Écart-type** : calcule l'écart-type des nombres d'une liste.
+
+### 3. Tests Unitaires
+Des tests unitaires sont fournis dans le fichier `test_calculator.py` pour vérifier que les fonctions retournent les résultats attendus. Ces tests couvrent à la fois les fonctions de base et les fonctions statistiques.
+
+## Installation
+
+### Prérequis
+
+Le projet nécessite Python 3.x ainsi que les bibliothèques suivantes :
+
+- `unittest` (inclus dans Python)
+
+Pour installer les dépendances supplémentaires pour le profilage et la visualisation, vous pouvez utiliser le fichier `requirements.txt` :
+
+```bash
+pip install -r requirements.txt
